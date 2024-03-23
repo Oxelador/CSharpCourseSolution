@@ -1,6 +1,7 @@
 ﻿
 using CSharpCourse.Homework12;
 using CSharpCourse.Homework13;
+using CSharpCourse.Homework14;
 using CSharpCourse.Test;
 using System.ComponentModel;
 
@@ -12,11 +13,7 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
-            List<ChessPlayer> result = LinqHomework1.GetChessPlayers();
-            foreach(ChessPlayer player in result)
-            {
-                Console.WriteLine(player);
-            }
+            BelieveDontBelieveGame.start();
         }
     }
 }
